@@ -24,7 +24,6 @@ def contacts(request):
 #Voenniye filmi
 def vf(request):
     return render(request,"vf.html")
-
     
 #All movies from DB
 def movies(request):
